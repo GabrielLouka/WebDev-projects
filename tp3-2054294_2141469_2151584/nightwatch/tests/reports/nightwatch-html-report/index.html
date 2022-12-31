@@ -1,0 +1,758 @@
+  <head>
+    <title>Nightwatch Reporter</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <div id="wrap">
+      <div id="main">
+        <section id="navigation">
+          <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg">
+              <a class="navbar-brand" href="https://nightwatchjs.org" target="_blank"><div class="logo"></div></a>
+            </nav>
+          </div>
+        </section>
+        <section id="auxbar">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="auxcol col-md-4 align-items-center">
+                <div class="auxcontainer">
+                  <div class="auxbox autobox">
+                  </div>
+                </div>
+              </div>
+              <div class="auxcol col-md-4 align-items-center">
+                <div class="auxcontainer align-h-center">
+                  <h1>Nightwatch.js – <strong>Test Report</strong></h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <section id="sessions">
+          <div class="row">
+          <div class="col-md-12">
+          <div class="container-fluid">
+            
+                <div id="s1" class="sessionbox">
+                  
+  <div class="sessionbox-indicator indicator-success sessionbox-padding">
+    <div class="row">
+      <div class="col-md-1">
+        <div class="statusbadge statusbadge-success">Success</div>
+      </div>
+      
+      <div class="col-md-11 separator-l">
+        <div class="row sessionbox-head">
+          <div class="col-md-8">
+             about
+          </div>
+        </div>
+        <div id="tabs-s1" class="row sessionbox-tabs">
+          <div class="col-md-12">
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab1" role="tablist">
+                <a class="nav-item nav-link active" id="nav-s1-t1-tab" data-bs-toggle="tab" href="#nav-s1-t1" role="tab" aria-controls="nav-s1-t1" aria-selected="true">Details</a>
+                <a class="nav-item nav-link" id="nav-s1-t3-tab" data-bs-toggle="tab" href="#nav-s1-t3" role="tab" aria-controls="nav-s1-t3" aria-selected="true">Raw HTTP Log</a>
+              </div>
+            </nav>
+
+            <div class="tab-content" id="nav-tab1Content">
+              <div class="tab-pane show active" id="nav-s1-t1" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="statgroup autobox">
+                      <div class="statbox autobox">
+                        <div class="label-sessionfull">Status</div>
+                        <div class="stat-sessionfull">PASSED</div>
+                      </div>
+                    </div>
+                    <div class="statgroup autobox">
+                     <div class="statbox autobox">
+                       <div class="label-sessionfull">Tests</div>
+                       <div class="stat-sessionfull">1</div>
+                     </div>
+                     <div class="statbox autobox">
+                      <div class="label-sessionfull">Failed</div>
+                      <div class="stat-sessionfull">0</div>
+                    </div>
+                    <div class="statbox autobox">
+                      <div class="label-sessionfull">Errors</div>
+                      <div class="stat-sessionfull">0</div>
+                    </div>
+                    <div class="statbox autobox">
+                      <div class="label-sessionfull">Module Path</div>
+                      <div class="stat-sessionfull">\tests\e2e\about.js</div>
+                    </div>
+                    </div>
+                    <div class="statgroup autobox">
+                      <div class="statbox autobox">
+                        <div class="label-sessionfull">Duration</div>
+                        <div class="stat-sessionfull">0.7560 secs</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane raw-http-log" id="nav-s1-t3" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="raw-http-log code-sessionfull"></div>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div id="sessionfull-accordion">
+            
+                <div class="card">
+   
+
+    <div class="card-header" id="h2">
+      <h5 class="mb-0">
+        <button class="btn btn-link btn-collapse" data-bs-toggle="collapse" data-bs-target="#s0ac1" aria-expanded="false" aria-controls="s0ac1">
+          Structure de la page à propos
+        </button>
+      </h5>
+    </div>
+
+    <div id="s0ac1" class="collapse" aria-labelledby="s0ah1" data-bs-parent="#sessionfull-accordion">
+<div class="card-body"><pre>
+<div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;entête existe sur la page (27ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le menu de navigation existe dans l&#39;entête (25ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le menu de navigation a l&#39;id &#39;nav-bar&#39; (33ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le menu de navigation a la classe &#39;flex-column&#39; (24ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le menu de navigation contient une liste (14ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> La liste a la classe &#39;flex-column&#39; (34ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Le menu de navigation doit comporter 3 liens.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le lien possède une icone</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom du lien de navigation #1 doit être &#39;Ma Bibliothèque&#39;.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le lien de navigation #1 doit être &#39;index.html&#39;.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le lien possède une icone</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom du lien de navigation #2 doit être &#39;Créer Playlist&#39;.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le lien de navigation #2 doit être &#39;create_playlist.html&#39;.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le lien possède une icone</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom du lien de navigation #3 doit être &#39;À Propos&#39;.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le lien de navigation #3 doit être &#39;about.html&#39;.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;main&#39; est présent sur la page (23ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;main&#39; a l&#39;id &#39;main-area&#39; (25ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;main&#39; a la classe &#39;flex-column&#39; (23ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Une section est présente sur la page.  (22ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;section&#39; a les classes &#39;flex-column&#39; et &#39;align-center&#39; (14ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Un titre est présent sur la page (24ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Un paragraphe est présent sur la page (24ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Une liste est présente sur la page (23ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: La liste doit contenir 6 raccourcis</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le pied de page existe (9ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;footer&#39; a l&#39;id &#39;playing-bar&#39; (26ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Le pied de page doit contenir 3 noms</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom de coéquipier 1 n&#39;est pas vide</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom de coéquipier 2 n&#39;est pas vide</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom de coéquipier 3 n&#39;est pas vide</div></pre></div></div>
+
+</div>
+              
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+                
+                <div id="s2" class="sessionbox">
+                  
+  <div class="sessionbox-indicator indicator-success sessionbox-padding">
+    <div class="row">
+      <div class="col-md-1">
+        <div class="statusbadge statusbadge-success">Success</div>
+      </div>
+      
+      <div class="col-md-11 separator-l">
+        <div class="row sessionbox-head">
+          <div class="col-md-8">
+             create_playlist
+          </div>
+        </div>
+        <div id="tabs-s2" class="row sessionbox-tabs">
+          <div class="col-md-12">
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab1" role="tablist">
+                <a class="nav-item nav-link active" id="nav-s2-t1-tab" data-bs-toggle="tab" href="#nav-s2-t1" role="tab" aria-controls="nav-s2-t1" aria-selected="true">Details</a>
+                <a class="nav-item nav-link" id="nav-s2-t3-tab" data-bs-toggle="tab" href="#nav-s2-t3" role="tab" aria-controls="nav-s2-t3" aria-selected="true">Raw HTTP Log</a>
+              </div>
+            </nav>
+
+            <div class="tab-content" id="nav-tab1Content">
+              <div class="tab-pane show active" id="nav-s2-t1" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="statgroup autobox">
+                      <div class="statbox autobox">
+                        <div class="label-sessionfull">Status</div>
+                        <div class="stat-sessionfull">PASSED</div>
+                      </div>
+                    </div>
+                    <div class="statgroup autobox">
+                     <div class="statbox autobox">
+                       <div class="label-sessionfull">Tests</div>
+                       <div class="stat-sessionfull">5</div>
+                     </div>
+                     <div class="statbox autobox">
+                      <div class="label-sessionfull">Failed</div>
+                      <div class="stat-sessionfull">0</div>
+                    </div>
+                    <div class="statbox autobox">
+                      <div class="label-sessionfull">Errors</div>
+                      <div class="stat-sessionfull">0</div>
+                    </div>
+                    <div class="statbox autobox">
+                      <div class="label-sessionfull">Module Path</div>
+                      <div class="stat-sessionfull">\tests\e2e\create_playlist.js</div>
+                    </div>
+                    </div>
+                    <div class="statgroup autobox">
+                      <div class="statbox autobox">
+                        <div class="label-sessionfull">Duration</div>
+                        <div class="stat-sessionfull">2.522 secs</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane raw-http-log" id="nav-s2-t3" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="raw-http-log code-sessionfull"></div>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div id="sessionfull-accordion">
+            
+                <div class="card">
+   
+
+    <div class="card-header" id="h2">
+      <h5 class="mb-0">
+        <button class="btn btn-link btn-collapse" data-bs-toggle="collapse" data-bs-target="#s1ac1" aria-expanded="false" aria-controls="s1ac1">
+          Structure de la page Créer une Playlist
+        </button>
+      </h5>
+    </div>
+
+    <div id="s1ac1" class="collapse" aria-labelledby="s1ah1" data-bs-parent="#sessionfull-accordion">
+<div class="card-body"><pre>
+<div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;entête existe sur la page (10ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le menu de navigation existe dans l&#39;entête (26ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le menu de navigation a l&#39;id &#39;nav-bar&#39; (29ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le menu de navigation a la classe &#39;flex-column&#39; (24ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le menu de navigation contient une liste (22ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> La liste a la classe &#39;flex-column&#39; (26ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Le menu de navigation doit comporter 3 liens.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le lien possède une icone</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom du lien de navigation #1 doit être &#39;Ma Bibliothèque&#39;.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le lien de navigation #1 doit être &#39;index.html&#39;.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le lien possède une icone</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom du lien de navigation #2 doit être &#39;Créer Playlist&#39;.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le lien de navigation #2 doit être &#39;create_playlist.html&#39;.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le lien possède une icone</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom du lien de navigation #3 doit être &#39;À Propos&#39;.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le lien de navigation #3 doit être &#39;about.html&#39;.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;main&#39; est présent sur la page (23ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;main&#39; a l&#39;id &#39;main-area&#39; (27ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;form&#39; est présent à l&#39;intérieur de l&#39;élément &#39;main&#39; (23ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;form&#39; possède l&#39;id &#39;playlist-form&#39; (23ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;form&#39; a la classe &#39;form-group&#39; (27ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le pied de page existe (22ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;footer&#39; a l&#39;id &#39;playing-bar&#39; (31ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Le pied de page doit contenir 3 noms</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom de coéquipier 1 n&#39;est pas vide</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom de coéquipier 2 n&#39;est pas vide</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom de coéquipier 3 n&#39;est pas vide</div></pre></div></div>
+
+</div>
+              
+                <div class="card">
+   
+
+    <div class="card-header" id="h2">
+      <h5 class="mb-0">
+        <button class="btn btn-link btn-collapse" data-bs-toggle="collapse" data-bs-target="#s1ac2" aria-expanded="false" aria-controls="s1ac2">
+          Tests de l&#39;information générale du playlist
+        </button>
+      </h5>
+    </div>
+
+    <div id="s1ac2" class="collapse" aria-labelledby="s1ah2" data-bs-parent="#sessionfull-accordion">
+<div class="card-body"><pre>
+<div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;div&#39; avec l&#39;id &#39;general-info&#39; est présent dans le formulaire (27ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément div avec l&#39;id &#39;general-info&#39; a une classe &#39;flex-row&#39; (30ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Un élément &#39;fieldset&#39; se situe à l&#39;intérieur du div qui contient l&#39;id &#39;general-info&#39; (25ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Les &#39;fieldset&#39; contiennent un élément &#39;legend&#39; (17ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Le &#39;fieldset&#39; doit contenir trois div</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Les éléments &#39;div&#39; qui se situent à l&#39;intérieur du &#39;fieldset&#39; ont comme classes &#39;form-control flex-row&#39; (26ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Chaque élément &#39;div&#39; dans le premier fieldset doit contenir un label (24ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Il doit y avoir un élément &#39;label&#39; dans chaque élément &#39;div&#39;</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> description (9ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Un élément &#39;input&#39; doit avoir comme id &#39;name&#39; (22ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;input&#39; utilisé pour déterminer le nom de la playlist est de type &#39;text&#39; (17ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Un élément &#39;input&#39; doit avoir comme id &#39;description&#39; (23ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;input&#39; utilisé pour déterminer la description de la playlist est de type &#39;text&#39; (24ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Un élément &#39;input&#39; utilisé doit avoir comme id &#39;image&#39; (23ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;input&#39; pour déterminer la description de la playlist est de type &#39;file&#39; (17ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;input&#39; ne doit accepter que les images (23ms)</div></pre></div></div>
+
+</div>
+              
+                <div class="card">
+   
+
+    <div class="card-header" id="h2">
+      <h5 class="mb-0">
+        <button class="btn btn-link btn-collapse" data-bs-toggle="collapse" data-bs-target="#s1ac3" aria-expanded="false" aria-controls="s1ac3">
+          Tests de chansons à la playlist
+        </button>
+      </h5>
+    </div>
+
+    <div id="s1ac3" class="collapse" aria-labelledby="s1ah3" data-bs-parent="#sessionfull-accordion">
+<div class="card-body"><pre>
+<div class="code-session-full"><span style="color:#0EDC8A">✔</span> Un élément fieldset doit être présent après l&#39;élément &#39;div&#39; avec l&#39;id &#39;general-info&#39; (22ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Un élément datalist doit être présent avec l&#39;id &#39;song-dataList&#39; (23ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Il doit y avoir 5 éléments &#39;option&#39; dans l&#39;élément &#39;datalist&#39;</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Il doit avoir 5 choix de chansons</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: L&#39;option #1 doit être Whip.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: L&#39;option #2 doit être Overflow.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: L&#39;option #3 doit être Intrigue Fun.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: L&#39;option #4 doit être Bounce.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: L&#39;option #5 doit être Summer Pranks.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Un élément &#39;bouton&#39; avec l&#39;id &#39;add-song-btn&#39; doit être placé après la datalist (19ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le bouton placé après l&#39;élément &#39;datalist&#39; doit avoir la classe &#39;fa fa-plus&#39; (28ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Un élément &#39;div&#39; avec id &#39;song-list&#39; doit être présent après le bouton avec l&#39;id &#39;add-song-btn&#39; (24ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Un label doit être présent à l&#39;intérieur du div mentionné précédemment (22ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;label&#39; doit avoir un attribut &#39;for=&#39;song-1&#39;&#39; (24ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Un élément &#39;input&#39; doit être présent dans le div et son id doit être &#39;song-1&#39; (24ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément input doit avoir la classe &#39;song-input&#39; (38ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;input&#39; doit avoir un attribut &#39;type&#39; de catégorie &#39;select&#39;&#39; (32ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;input&#39; doit avoir un attribut &#39;list&#39; de catégorie &#39;song-dataList&#39;&#39; (37ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Un élément &#39;input&#39; doit être rajouté après le dernier élément fieldset (33ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;input&#39; doit avoir un type &#39;submit&#39; (36ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;input&#39; doit avoir comme value: &#39;Ajouter la playlist&#39; (34ms)</div></pre></div></div>
+
+</div>
+              
+                <div class="card">
+   
+
+    <div class="card-header" id="h2">
+      <h5 class="mb-0">
+        <button class="btn btn-link btn-collapse" data-bs-toggle="collapse" data-bs-target="#s1ac4" aria-expanded="false" aria-controls="s1ac4">
+          Tests d&#39;attributs requis dans le formulaire
+        </button>
+      </h5>
+    </div>
+
+    <div id="s1ac4" class="collapse" aria-labelledby="s1ah4" data-bs-parent="#sessionfull-accordion">
+<div class="card-body"><pre>
+<div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le champ de nom est requis (29ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le champ de description est requis (35ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le champ d&#39;image est requis (17ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le champ de chanson est requis (33ms)</div></pre></div></div>
+
+</div>
+              
+                <div class="card">
+   
+
+    <div class="card-header" id="h2">
+      <h5 class="mb-0">
+        <button class="btn btn-link btn-collapse" data-bs-toggle="collapse" data-bs-target="#s1ac5" aria-expanded="false" aria-controls="s1ac5">
+          Tests de remplissage de Formulaire
+        </button>
+      </h5>
+    </div>
+
+    <div id="s1ac5" class="collapse" aria-labelledby="s1ah5" data-bs-parent="#sessionfull-accordion">
+<div class="card-body"><pre>
+<div class="code-session-full"><span style="color:#0EDC8A">✔</span> Cliquer sur le bouton devrait rajouter un nouveau champ de saisie pour les chansons (20ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Une nouvelle playlist est ajoutée</div></pre></div></div>
+
+</div>
+              
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+                
+                <div id="s3" class="sessionbox">
+                  
+  <div class="sessionbox-indicator indicator-success sessionbox-padding">
+    <div class="row">
+      <div class="col-md-1">
+        <div class="statusbadge statusbadge-success">Success</div>
+      </div>
+      
+      <div class="col-md-11 separator-l">
+        <div class="row sessionbox-head">
+          <div class="col-md-8">
+             index
+          </div>
+        </div>
+        <div id="tabs-s3" class="row sessionbox-tabs">
+          <div class="col-md-12">
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab1" role="tablist">
+                <a class="nav-item nav-link active" id="nav-s3-t1-tab" data-bs-toggle="tab" href="#nav-s3-t1" role="tab" aria-controls="nav-s3-t1" aria-selected="true">Details</a>
+                <a class="nav-item nav-link" id="nav-s3-t3-tab" data-bs-toggle="tab" href="#nav-s3-t3" role="tab" aria-controls="nav-s3-t3" aria-selected="true">Raw HTTP Log</a>
+              </div>
+            </nav>
+
+            <div class="tab-content" id="nav-tab1Content">
+              <div class="tab-pane show active" id="nav-s3-t1" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="statgroup autobox">
+                      <div class="statbox autobox">
+                        <div class="label-sessionfull">Status</div>
+                        <div class="stat-sessionfull">PASSED</div>
+                      </div>
+                    </div>
+                    <div class="statgroup autobox">
+                     <div class="statbox autobox">
+                       <div class="label-sessionfull">Tests</div>
+                       <div class="stat-sessionfull">7</div>
+                     </div>
+                     <div class="statbox autobox">
+                      <div class="label-sessionfull">Failed</div>
+                      <div class="stat-sessionfull">0</div>
+                    </div>
+                    <div class="statbox autobox">
+                      <div class="label-sessionfull">Errors</div>
+                      <div class="stat-sessionfull">0</div>
+                    </div>
+                    <div class="statbox autobox">
+                      <div class="label-sessionfull">Module Path</div>
+                      <div class="stat-sessionfull">\tests\e2e\index.js</div>
+                    </div>
+                    </div>
+                    <div class="statgroup autobox">
+                      <div class="statbox autobox">
+                        <div class="label-sessionfull">Duration</div>
+                        <div class="stat-sessionfull">3.563 secs</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane raw-http-log" id="nav-s3-t3" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="raw-http-log code-sessionfull"></div>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div id="sessionfull-accordion">
+            
+                <div class="card">
+   
+
+    <div class="card-header" id="h2">
+      <h5 class="mb-0">
+        <button class="btn btn-link btn-collapse" data-bs-toggle="collapse" data-bs-target="#s2ac1" aria-expanded="false" aria-controls="s2ac1">
+          Structure de la page principale
+        </button>
+      </h5>
+    </div>
+
+    <div id="s2ac1" class="collapse" aria-labelledby="s2ah1" data-bs-parent="#sessionfull-accordion">
+<div class="card-body"><pre>
+<div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;entête existe sur la page (23ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le menu de navigation existe dans l&#39;entête (25ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le menu de navigation a l&#39;id &#39;nav-bar&#39; (32ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le menu de navigation a la classe &#39;flex-column&#39; (24ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le menu de navigation contient une liste (23ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> La liste a la classe &#39;flex-column&#39; (22ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Le menu de navigation doit comporter 3 liens.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le lien possède une icone</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom du lien de navigation #1 doit être &#39;Ma Bibliothèque&#39;.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le lien de navigation #1 doit être &#39;index.html&#39;.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le lien possède une icone</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom du lien de navigation #2 doit être &#39;Créer Playlist&#39;.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le lien de navigation #2 doit être &#39;create_playlist.html&#39;.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le lien possède une icone</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom du lien de navigation #3 doit être &#39;À Propos&#39;.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le lien de navigation #3 doit être &#39;about.html&#39;.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;main&#39; est présent sur la page (25ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;main&#39; a l&#39;id &#39;main-area&#39; (23ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;main&#39; a la classe &#39;flex-column&#39; (23ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Le contenu principal doit contenir 3 éléments div</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le pied de page existe (24ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;footer&#39; a l&#39;id &#39;playing-bar&#39; (27ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Le pied de page doit contenir 3 noms</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom de coéquipier 1 n&#39;est pas vide</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom de coéquipier 2 n&#39;est pas vide</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom de coéquipier 3 n&#39;est pas vide</div></pre></div></div>
+
+</div>
+              
+                <div class="card">
+   
+
+    <div class="card-header" id="h2">
+      <h5 class="mb-0">
+        <button class="btn btn-link btn-collapse" data-bs-toggle="collapse" data-bs-target="#s2ac2" aria-expanded="false" aria-controls="s2ac2">
+          Tests de la barre de recherche
+        </button>
+      </h5>
+    </div>
+
+    <div id="s2ac2" class="collapse" aria-labelledby="s2ah2" data-bs-parent="#sessionfull-accordion">
+<div class="card-body"><pre>
+<div class="code-session-full"><span style="color:#0EDC8A">✔</span> Un conteneur pour la barre de recherche est présent sur la page (25ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> La barre de recherche est un formulaire avec id &#39;search-form&#39; (26ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le formulaire a la classe &#39;flex-row&#39; (23ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> La barre de recherche est un input avec id &#39;search-input&#39; (13ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> La barre de recherche est de type &#39;text&#39; (23ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> La barre de recherche contient un bouton (22ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le bouton a les classes &#39;fa fa-2x fa-search&#39; (24ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le bouton de recherche est de type &#39;submit&#39; (23ms)</div></pre></div></div>
+
+</div>
+              
+                <div class="card">
+   
+
+    <div class="card-header" id="h2">
+      <h5 class="mb-0">
+        <button class="btn btn-link btn-collapse" data-bs-toggle="collapse" data-bs-target="#s2ac3" aria-expanded="false" aria-controls="s2ac3">
+          Tests de logique de barre de recherche sans match exact
+        </button>
+      </h5>
+    </div>
+
+    <div id="s2ac3" class="collapse" aria-labelledby="s2ah3" data-bs-parent="#sessionfull-accordion">
+<div class="card-body"><pre>
+<div class="code-session-full"><span style="color:#0EDC8A">✔</span> Rechercher &#39;Co&#39; devrait retourner 2 items de playlist (19ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Rechercher &#39;Co&#39; devrait retourner 1 item de chanson (23ms)</div></pre></div></div>
+
+</div>
+              
+                <div class="card">
+   
+
+    <div class="card-header" id="h2">
+      <h5 class="mb-0">
+        <button class="btn btn-link btn-collapse" data-bs-toggle="collapse" data-bs-target="#s2ac4" aria-expanded="false" aria-controls="s2ac4">
+          Tests de logique de barre de recherche avec match exact
+        </button>
+      </h5>
+    </div>
+
+    <div id="s2ac4" class="collapse" aria-labelledby="s2ah4" data-bs-parent="#sessionfull-accordion">
+<div class="card-body"><pre>
+<div class="code-session-full"><span style="color:#0EDC8A">✔</span> Rechercher &#39;Co&#39; devrait retourner 0 items de playlist (20ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Rechercher &#39;Co&#39; devrait retourner 1 item de chanson (22ms)</div></pre></div></div>
+
+</div>
+              
+                <div class="card">
+   
+
+    <div class="card-header" id="h2">
+      <h5 class="mb-0">
+        <button class="btn btn-link btn-collapse" data-bs-toggle="collapse" data-bs-target="#s2ac5" aria-expanded="false" aria-controls="s2ac5">
+          Tests de la liste de playlists
+        </button>
+      </h5>
+    </div>
+
+    <div id="s2ac5" class="collapse" aria-labelledby="s2ah5" data-bs-parent="#sessionfull-accordion">
+<div class="card-body"><pre>
+<div class="code-session-full"><span style="color:#0EDC8A">✔</span> Un liste de playlists est présent sur la page (26ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> La listee de playlists contient un titre (13ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Un conteneur pour les playlists est présent sur la page (26ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Chaque playlist a la classe &#39;flex-column&#39; (27ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Il doit avoir 3 playlists dans une balise &lt;a&gt;.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le lien de navigation de la playlist #1 doit être playlist.html?id=.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le lien de navigation de la playlist #2 doit être playlist.html?id=.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le lien de navigation de la playlist #3 doit être playlist.html?id=.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le titre de playlist #1 doit être Ma Premiere Playlist.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le titre de playlist #2 doit être Playlist de Rock.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le titre de playlist #3 doit être Discover Weekly.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: La description de playlist #1 doit être Playlist de base.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: La description de playlist #2 doit être Playlist avec une descrption beaucoup plus longue.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: La description de playlist #3 doit être Playlist avec beaucoup de chansons.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: L&#39;image de prévisualisation doit être ./assets/img/default.png</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: L&#39;image de prévisualisation doit être ./assets/img/rock.jpg</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: L&#39;image de prévisualisation doit être ./assets/img/disc_weekly.jpeg</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Chaque playlist doit contenir une icone</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Chaque icone a les classes &#39;fa fa-2x fa-play-circle hidden playlist-play-icon&#39; (21ms)</div></pre></div></div>
+
+</div>
+              
+                <div class="card">
+   
+
+    <div class="card-header" id="h2">
+      <h5 class="mb-0">
+        <button class="btn btn-link btn-collapse" data-bs-toggle="collapse" data-bs-target="#s2ac6" aria-expanded="false" aria-controls="s2ac6">
+          Modification de l&#39;affichage en bas de 800px
+        </button>
+      </h5>
+    </div>
+
+    <div id="s2ac6" class="collapse" aria-labelledby="s2ah6" data-bs-parent="#sessionfull-accordion">
+<div class="card-body"><pre>
+<div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Il y a 2 colonnes pour le tableau de playlists en bas de 800px</div></pre></div></div>
+
+</div>
+              
+                <div class="card">
+   
+
+    <div class="card-header" id="h2">
+      <h5 class="mb-0">
+        <button class="btn btn-link btn-collapse" data-bs-toggle="collapse" data-bs-target="#s2ac7" aria-expanded="false" aria-controls="s2ac7">
+          Tests de la liste de chansons
+        </button>
+      </h5>
+    </div>
+
+    <div id="s2ac7" class="collapse" aria-labelledby="s2ah7" data-bs-parent="#sessionfull-accordion">
+<div class="card-body"><pre>
+<div class="code-session-full"><span style="color:#0EDC8A">✔</span> Un conteneur pour les chansons est présent sur la page (32ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le conteneur a la classe &#39;flex-column&#39; (28ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Il doit avoir 5 chansons (22ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Chaque chanson a la classe &#39;flex-row&#39; (65ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le titre de chanson #1 doit être Whip.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le titre de chanson #2 doit être Overflow.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le titre de chanson #3 doit être Intrigue Fun.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le titre de chanson #4 doit être Bounce.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le titre de chanson #5 doit être Summer Pranks.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le genre de chanson #1 doit être Electronic.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le genre de chanson #2 doit être Classic.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le genre de chanson #3 doit être Jazz.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le genre de chanson #4 doit être Electronic.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le genre de chanson #5 doit être Rock.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: L&#39;artiste de chanson #1 doit être prazkhanal.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: L&#39;artiste de chanson #2 doit être Piano Amor.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: L&#39;artiste de chanson #3 doit être Music Town.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: L&#39;artiste de chanson #4 doit être Coma-Media.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: L&#39;artiste de chanson #5 doit être Lemon Music Studio.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Les boutons d&#39;aimer ont tous la classe &#39;fa-hert&#39; (18ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: La chanson #1 doit être non-aimée.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: La chanson #2 doit être non-aimée.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: La chanson #3 doit être aimée.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: La chanson #4 doit être non-aimée.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: La chanson #5 doit être aimée.</div></pre></div></div>
+
+</div>
+              
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+                
+                <div id="s4" class="sessionbox">
+                  
+  <div class="sessionbox-indicator indicator-success sessionbox-padding">
+    <div class="row">
+      <div class="col-md-1">
+        <div class="statusbadge statusbadge-success">Success</div>
+      </div>
+      
+      <div class="col-md-11 separator-l">
+        <div class="row sessionbox-head">
+          <div class="col-md-8">
+             playlist
+          </div>
+        </div>
+        <div id="tabs-s4" class="row sessionbox-tabs">
+          <div class="col-md-12">
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab1" role="tablist">
+                <a class="nav-item nav-link active" id="nav-s4-t1-tab" data-bs-toggle="tab" href="#nav-s4-t1" role="tab" aria-controls="nav-s4-t1" aria-selected="true">Details</a>
+                <a class="nav-item nav-link" id="nav-s4-t3-tab" data-bs-toggle="tab" href="#nav-s4-t3" role="tab" aria-controls="nav-s4-t3" aria-selected="true">Raw HTTP Log</a>
+              </div>
+            </nav>
+
+            <div class="tab-content" id="nav-tab1Content">
+              <div class="tab-pane show active" id="nav-s4-t1" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="statgroup autobox">
+                      <div class="statbox autobox">
+                        <div class="label-sessionfull">Status</div>
+                        <div class="stat-sessionfull">PASSED</div>
+                      </div>
+                    </div>
+                    <div class="statgroup autobox">
+                     <div class="statbox autobox">
+                       <div class="label-sessionfull">Tests</div>
+                       <div class="stat-sessionfull">7</div>
+                     </div>
+                     <div class="statbox autobox">
+                      <div class="label-sessionfull">Failed</div>
+                      <div class="stat-sessionfull">0</div>
+                    </div>
+                    <div class="statbox autobox">
+                      <div class="label-sessionfull">Errors</div>
+                      <div class="stat-sessionfull">0</div>
+                    </div>
+                    <div class="statbox autobox">
+                      <div class="label-sessionfull">Module Path</div>
+                      <div class="stat-sessionfull">\tests\e2e\playlist.js</div>
+                    </div>
+                    </div>
+                    <div class="statgroup autobox">
+                      <div class="statbox autobox">
+                        <div class="label-sessionfull">Duration</div>
+                        <div class="stat-sessionfull">3.026 secs</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane raw-http-log" id="nav-s4-t3" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="raw-http-log code-sessionfull"></div>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div id="sessionfull-accordion">
+            
+                <div class="card">
+   
+
+    <div class="card-header" id="h2">
+      <h5 class="mb-0">
+        <button class="btn btn-link btn-collapse" data-bs-toggle="collapse" data-bs-target="#s3ac1" aria-expanded="false" aria-controls="s3ac1">
+          Structure de la page
+        </button>
+      </h5>
+    </div>
+
+    <div id="s3ac1" class="collapse" aria-labelledby="s3ah1" data-bs-parent="#sessionfull-accordion">
+<div class="card-body"><pre>
+<div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;entête existe sur la page (27ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le menu de navigation existe dans l&#39;entête (31ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le menu de navigation a l&#39;id &#39;nav-bar&#39; (36ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le menu de navigation a la classe &#39;flex-column&#39; (26ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le menu de navigation contient une liste (26ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> La liste a la classe &#39;flex-column&#39; (14ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Le menu de navigation doit comporter 3 liens.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le lien possède une icone</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom du lien de navigation #1 doit être &#39;Ma Bibliothèque&#39;.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le lien de navigation #1 doit être &#39;index.html&#39;.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le lien possède une icone</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom du lien de navigation #2 doit être &#39;Créer Playlist&#39;.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le lien de navigation #2 doit être &#39;create_playlist.html&#39;.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le lien possède une icone</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom du lien de navigation #3 doit être &#39;À Propos&#39;.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le lien de navigation #3 doit être &#39;about.html&#39;.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;main&#39; est présent sur la page (21ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;main&#39; doit avoir la classe &#39;flex-column&#39; (30ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Un élément &#39;div&#39; avec comme id &#39;songs-list&#39; doit être présent à l&#39;intérieur de l&#39;élément main (23ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le pied de page existe (6ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;footer&#39; a l&#39;id &#39;playing-bar&#39; (26ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Le pied de page doit contenir 3 noms</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom de coéquipier 1 n&#39;est pas vide</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom de coéquipier 2 n&#39;est pas vide</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom de coéquipier 3 n&#39;est pas vide</div></pre></div></div>
+
+</div>
+              
+                <div class="card">
+   
+
+    <div class="card-header" id="h2">
+      <h5 class="mb-0">
+        <button class="btn btn-link btn-collapse" data-bs-toggle="collapse" data-bs-target="#s3ac2" aria-expanded="false" aria-controls="s3ac2">
+          Tests de l&#39;entête du contenu principal
+        </button>
+      </h5>
+    </div>
+
+    <div id="s3ac2" class="collapse" aria-labelledby="s3ah2" data-bs-parent="#sessionfull-accordion">
+<div class="card-body"><pre>
+<div class="code-session-full"><span style="color:#0EDC8A">✔</span> Un élément &#39;header&#39; avec comme id &#39;playlist-header&#39; doit être présent à l&#39;intérieur de l&#39;élément div#songs-list (24ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;header&#39; avec comme id &#39;playlist-header&#39; doit avoir la classe &#39;flex-row&#39; (36ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Il doit y avoir un élément &#39;img&#39; présent à l&#39;intérieur de l&#39;élément &#39;header&#39; précédent (29ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> La largeur de l&#39;image doit être de 80px (37ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> La hauteur de l&#39;image doit être de 80px (35ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Un élément &#39;h1&#39; doit être présent l&#39;élément &#39;img&#39; et doit avoir l&#39;id &#39;playlist-title&#39;  (33ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Un élément &#39;a&#39; doit être présent après l&#39;élément &#39;h1&#39; et doit avoir l&#39;id &#39;playlist-edit&#39; (30ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;a&#39; doit contenir un attribut &#39;href&#39; ayant comme valeur &#39;./create_playlist.html&#39; (25ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Il doit y avoir un élément &#39;i&#39; à l&#39;intérieur de l&#39;élément a précédent (11ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> La classe de l&#39;élément &#39;i&#39; doit être &#39;fa fa-2x fa-pencil&#39; (16ms)</div></pre></div></div>
+
+</div>
+              
+                <div class="card">
+   
+
+    <div class="card-header" id="h2">
+      <h5 class="mb-0">
+        <button class="btn btn-link btn-collapse" data-bs-toggle="collapse" data-bs-target="#s3ac3" aria-expanded="false" aria-controls="s3ac3">
+          Tests du contenu principal de la page
+        </button>
+      </h5>
+    </div>
+
+    <div id="s3ac3" class="collapse" aria-labelledby="s3ah3" data-bs-parent="#sessionfull-accordion">
+<div class="card-body"><pre>
+<div class="code-session-full"><span style="color:#0EDC8A">✔</span> Il doit y avoir un élément &#39;section&#39; avec l&#39;id &#39;song-container&#39; à la suite de l&#39;élément &#39;header&#39; (26ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;section&#39; avec id &#39;song-container&#39; doit avoir comme classe &#39;flex-column&#39; (21ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Il doit y avoir une section &#39;div&#39; à l&#39;intérieur de l&#39;élément &#39;section&#39; (28ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;div&#39; doit avoir les classes &#39;song-item flex-row&#39; (27ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;div&#39; doit contenir un élément &#39;span&#39; suivi de trois élément &#39;p&#39; puis un élément &#39;i&#39; (26ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: Il doit y avoir trois ensembles d&#39;éléments &#39;span&#39;, &#39;p&#39;, &#39;p&#39;, &#39;p&#39; puis &#39;i&#39; dans l&#39;élément section</div></pre></div></div>
+
+</div>
+              
+                <div class="card">
+   
+
+    <div class="card-header" id="h2">
+      <h5 class="mb-0">
+        <button class="btn btn-link btn-collapse" data-bs-toggle="collapse" data-bs-target="#s3ac4" aria-expanded="false" aria-controls="s3ac4">
+          Tests de la barre de lecture de musique
+        </button>
+      </h5>
+    </div>
+
+    <div id="s3ac4" class="collapse" aria-labelledby="s3ah4" data-bs-parent="#sessionfull-accordion">
+<div class="card-body"><pre>
+<div class="code-session-full"><span style="color:#0EDC8A">✔</span> Un élément &#39;div&#39; avec l&#39;id &#39;now-playing&#39; doit être à l&#39;intérieur de l&#39;élément &#39;footer&#39; (30ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Un élément &#39;div&#39; avec l&#39;id &#39;controls&#39; suit l&#39;élément &#39;div&#39; précédent (25ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;div&#39; avec l&#39;id &#39;controls&#39; a la classe &#39;flex-column&#39; (22ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Un élément section est présent dans l&#39;élément &#39;div&#39; précédent (22ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;section&#39; a la classe &#39;flex-row&#39; (22ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [equal]: L&#39;élément &#39;section&#39; contient 5 boutons</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Un bouton avec l&#39;id &#39;previous&#39; doit être présent dans l&#39;élément &#39;section&#39; (16ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le bouton avec l&#39;id &#39;previous&#39; doit avoir les classes &#39;control-btn fa fa-2x fa-arrow-left&#39; (32ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Un bouton avec l&#39;id &#39;play&#39; doit être présent dans l&#39;élément &#39;section&#39; (30ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le bouton avec l&#39;id &#39;play&#39; doit avoir les classes &#39;control-btn fa fa-2x fa-arrow-play&#39; (36ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Un bouton avec l&#39;id &#39;next&#39; doit être présent dans l&#39;élément &#39;section&#39; (21ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le bouton avec l&#39;id &#39;next&#39; doit avoir les classes &#39;control-btn fa fa-2x fa-arrow-right&#39; (27ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Un bouton avec l&#39;id &#39;shuffle&#39; doit être présent dans l&#39;élément &#39;section&#39; (24ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le bouton avec l&#39;id &#39;shuffle&#39; doit avoir les classes &#39;control-btn fa fa-2x fa-shuffle&#39; (13ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Un bouton avec l&#39;id &#39;mute&#39; doit être présent dans l&#39;élément &#39;section&#39; (11ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le bouton avec l&#39;id &#39;mute&#39; doit avoir les classes &#39;control-btn fa fa-2x fa-volume-high&#39; (31ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Un élément &#39;section&#39; avec l&#39;id &#39;timeline-container&#39; suit le premier élément &#39;section&#39; (33ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> L&#39;élément &#39;section&#39; doit avoir comme classe &#39;flex-row&#39; (29ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Un élément &#39;span&#39; avec l&#39;id &#39;timeline-current&#39; doit être présent à l&#39;intérieur de la section (26ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Un élément &#39;input&#39; avec l&#39;id &#39;timeline&#39; doit suivre l&#39;élément précédant (35ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Un élément &#39;span&#39; avec l&#39;id &#39;timeline-end&#39; doit suivre l&#39;élément précédant (37ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le temps initial est 0:00 (55ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le temps final est 5:00 (51ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le bouton Shuffle n&#39;a pas la classe &#39;control-btn-toggled initialement (30ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le bouton Shuffle a la classe &#39;control-btn-toggled après avoir été activé (19ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le bouton Shuffle n&#39;a pas la classe &#39;control-btn-toggled après avoir été désactivé (15ms)</div></pre></div></div>
+
+</div>
+              
+                <div class="card">
+   
+
+    <div class="card-header" id="h2">
+      <h5 class="mb-0">
+        <button class="btn btn-link btn-collapse" data-bs-toggle="collapse" data-bs-target="#s3ac5" aria-expanded="false" aria-controls="s3ac5">
+          validation de la playlist #0
+        </button>
+      </h5>
+    </div>
+
+    <div id="s3ac5" class="collapse" aria-labelledby="s3ah5" data-bs-parent="#sessionfull-accordion">
+<div class="card-body"><pre>
+<div class="code-session-full"><span style="color:#0EDC8A">✔</span> La source du l&#39;image présent dans le header doit être ./assets/img/default.png (54ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le nom de la playlist est Ma Premiere Playlist (65ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom de la chanson #1 doit être Whip.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom de la chanson #2 doit être Overflow.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le genre de la chanson #1 doit être Electronic.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le genre de la chanson #2 doit être Classic.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom de l&#39;artiste de la chanson #1 doit être prazkhanal.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom de l&#39;artiste de la chanson #2 doit être Piano Amor.</div></pre></div></div>
+
+</div>
+              
+                <div class="card">
+   
+
+    <div class="card-header" id="h2">
+      <h5 class="mb-0">
+        <button class="btn btn-link btn-collapse" data-bs-toggle="collapse" data-bs-target="#s3ac6" aria-expanded="false" aria-controls="s3ac6">
+          validation de la playlist #1
+        </button>
+      </h5>
+    </div>
+
+    <div id="s3ac6" class="collapse" aria-labelledby="s3ah6" data-bs-parent="#sessionfull-accordion">
+<div class="card-body"><pre>
+<div class="code-session-full"><span style="color:#0EDC8A">✔</span> La source du l&#39;image présent dans le header doit être ./assets/img/rock.jpg (14ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le nom de la playlist est Playlist de Rock (28ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom de la chanson #1 doit être Whip.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom de la chanson #2 doit être Bounce.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom de la chanson #3 doit être Summer Pranks.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le genre de la chanson #1 doit être Electronic.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le genre de la chanson #2 doit être Electronic.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le genre de la chanson #3 doit être Rock.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom de l&#39;artiste de la chanson #1 doit être prazkhanal.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom de l&#39;artiste de la chanson #2 doit être Coma-Media.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom de l&#39;artiste de la chanson #3 doit être Lemon Music Studio.</div></pre></div></div>
+
+</div>
+              
+                <div class="card">
+   
+
+    <div class="card-header" id="h2">
+      <h5 class="mb-0">
+        <button class="btn btn-link btn-collapse" data-bs-toggle="collapse" data-bs-target="#s3ac7" aria-expanded="false" aria-controls="s3ac7">
+          validation de la playlist #2
+        </button>
+      </h5>
+    </div>
+
+    <div id="s3ac7" class="collapse" aria-labelledby="s3ah7" data-bs-parent="#sessionfull-accordion">
+<div class="card-body"><pre>
+<div class="code-session-full"><span style="color:#0EDC8A">✔</span> La source du l&#39;image présent dans le header doit être ./assets/img/disc_weekly.jpeg (20ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Le nom de la playlist est Discover Weekly (31ms)</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom de la chanson #1 doit être Whip.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom de la chanson #2 doit être Overflow.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom de la chanson #3 doit être Intrigue Fun.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom de la chanson #4 doit être Bounce.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom de la chanson #5 doit être Summer Pranks.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le genre de la chanson #1 doit être Electronic.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le genre de la chanson #2 doit être Classic.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le genre de la chanson #3 doit être Jazz.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le genre de la chanson #4 doit être Electronic.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le genre de la chanson #5 doit être Rock.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom de l&#39;artiste de la chanson #1 doit être prazkhanal.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom de l&#39;artiste de la chanson #2 doit être Piano Amor.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom de l&#39;artiste de la chanson #3 doit être Music Town.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom de l&#39;artiste de la chanson #4 doit être Coma-Media.</div><div class="code-session-full"><span style="color:#0EDC8A">✔</span> Passed [ok]: Le nom de l&#39;artiste de la chanson #5 doit être Lemon Music Studio.</div></pre></div></div>
+
+</div>
+              
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+                
+          </div>
+          </div>
+         </div>
+        </section>
+      </div>
+    </div>
+
+    <section id="footer">
+      <div class="container-fluid">
+        <div class="row footerstarbg">
+          <div class="col-md-12">
+            <nav class="footer-box">
+              <div class="footer-links">
+                  <a class="cr" href="https://nightwatchjs.org" target="_blank">© 2022 Nightwatch.js</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
